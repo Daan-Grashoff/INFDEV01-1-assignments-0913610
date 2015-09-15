@@ -1,4 +1,5 @@
-# INFDEV01-1-assignments-0913610
-All INFDEV01 Assignments of Daan
+# Assignments for INFDEV01-1
 
-
+4	Assignment 1 : [Hello Python](Assignment1_Greeting)
+5	
+6	Assignment 2 : [Triangle](Assignment2_triangle)
