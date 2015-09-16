@@ -13,7 +13,7 @@ except SyntaxError:
     star_char = '*'
 
 if star_char == '':
-    star_char = "^^^"
+    star_char = "&&&"
 
 
 print "[+] pyramid \n"
