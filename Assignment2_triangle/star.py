@@ -1,7 +1,5 @@
 __author__ = 'Mac'
 
-
-
 try:
     number = input('type a number ')
 except SyntaxError:
@@ -73,4 +71,16 @@ for i in range(0, number):
         star += "%s "  % star_char
     for j in range(0, number - i):
         star += "%s " % star_char
+    print star
+
+
+for i in range(0, number):
+    star = ""
+    if i == 0 or i == number - 1:
+        for j in range(0, number):
+            star += "*"
+    else:
+        "*" + " " * (number - 2) + "*"
+
+
     print star
