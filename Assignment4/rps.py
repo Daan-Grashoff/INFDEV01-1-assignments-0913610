@@ -105,3 +105,4 @@ if player_1 == 'spock':
     if player_2 == 'lizard':
         print lizard_spock, player2_wins
 
+print 'Done'
