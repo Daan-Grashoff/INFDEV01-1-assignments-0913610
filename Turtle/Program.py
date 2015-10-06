@@ -40,7 +40,7 @@ def Program():
 
     key = get()
 
-    Speed = 10
+    Speed = 100
     Turn = 90
 
 
@@ -64,6 +64,14 @@ def Program():
         a()
     elif key == 100:
         d()
+    elif key == 113:
+        w()
+        d()
+        w()
+        d()
+        w()
+        d()
+        w()
 
 
 run(Program)
